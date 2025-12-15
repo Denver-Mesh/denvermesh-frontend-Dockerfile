@@ -22,4 +22,4 @@ in the docker-compose.denvermesh.yml file on the denvermesh server, and use dock
 Any problems or difficulties, please don't hesitate to reach out on the 
 DenverMesh discord or use the contact form at https://denvermesh.org/contact
 
-We also appreciate any donations through the  sponsorship button! :) 
+We also appreciate any donations through the  sponsorship button! 
