@@ -17,6 +17,8 @@ in the docker-compose.denvermesh.yml file.
 
 in the docker-compose.denvermesh.yml file on the denvermesh server, and use docker pull.
 
+in the docker-compose.denvermesh.yml file on the denvermesh server, and use docker pull.
+
 Any problems or difficulties, please don't hesitate to reach out on the 
 DenverMesh discord or use the contact form at https://denvermesh.org/contact
 
