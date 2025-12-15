@@ -13,12 +13,9 @@ In the docker-compose.denmesh.yml you just need to match the above tag in the ar
 frontend:
     image:  <---
 ```
-<<<<<<< HEAD
 in the docker-compose.denvermesh.yml file.
-=======
 
 in the docker-compose.denvermesh.yml file on the denvermesh server, and use docker pull.
->>>>>>> 82ab419 (Update to readme file.)
 
 Any problems or difficulties, please don't hesitate to reach out on the 
 DenverMesh discord or use the contact form at https://denvermesh.org/contact
