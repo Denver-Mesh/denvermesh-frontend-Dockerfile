@@ -1,7 +1,6 @@
-#############################
-Created By Andrew Himelstieb
+Created By Andrew Himelstieb Dec 14 2025
 andrew@denvermesh.org
-#############################
+
 This repo contains all the 
 files required to build the docker image for the Volto Frontend
 of the https://DenverMesh.org website.
