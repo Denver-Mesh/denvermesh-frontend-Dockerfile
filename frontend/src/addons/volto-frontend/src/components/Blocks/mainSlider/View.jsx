@@ -52,7 +52,7 @@ const View = (props) => {
           >
             <h1>DenverMesh</h1>
             <h3>
-              Colorado's Meshtastic Group
+              Colorado's Mesh Network Community
             </h3>
           </div>
         </div>
