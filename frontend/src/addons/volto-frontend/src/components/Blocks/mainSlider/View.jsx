@@ -50,7 +50,7 @@ const View = (props) => {
           <div className="slide slide1"
           style={{ textAlign: 'center', color: '#96ffb9'}}
           >
-            <h1>DenverMesh</h1>
+            <h1>ColoradoMesh</h1>
             <h3>
               Colorado's Mesh Network Community
             </h3>
