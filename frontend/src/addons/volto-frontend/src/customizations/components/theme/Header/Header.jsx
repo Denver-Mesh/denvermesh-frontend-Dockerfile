@@ -63,7 +63,7 @@ class Header extends Component {
               {!this.props.token && (
                 <div className="tools">
                   <Button compact color="grey" as={Link} to="/login">
-                    <FormattedMessage id="Login" defaultMessage="Login" />
+                    <FormattedMessage id="Admin" defaultMessage="Admin" />
                   </Button>
                 </div>
               )}
