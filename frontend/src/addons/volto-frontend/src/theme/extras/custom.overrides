@@ -12,10 +12,12 @@
 .ui.basic.segment.content-area {
   color: white;
 }  
+//Font color for floated segment with info in Event content type
 .ui[class*="right floated"].segment {
   background-color: #2b2d3c;
   color: white;
 }  
+//Small header font color in above segement in Event Content type
 .ui.basic.segment .header, .dropdown-popup .ui.popup .menu > .header {
   color: white;
 } 
