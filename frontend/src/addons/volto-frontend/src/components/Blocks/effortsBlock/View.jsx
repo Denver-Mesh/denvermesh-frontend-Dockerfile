@@ -8,7 +8,7 @@ import './style.css';
 
 const View = (props) => {
   return (
-  <section className="hero-mesh" style={{height: '200px'}}>  <div className="mesh-container">
+  <section className="hero-mesh" style={{height: '350px'}}>  <div className="mesh-container">
     <div className="node green p1"></div>
     <div className="node brown p2"></div>
     <div className="node green p3"></div>
