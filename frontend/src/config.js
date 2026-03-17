@@ -39,6 +39,11 @@ import {
   WestSliderViewBlock,
 } from 'addons/volto-frontend/src/components';
 
+import {
+  EffortsEditBlock,
+  EffortsViewBlock,
+} from 'addons/volto-frontend/src/components';
+
 import sliderSVG from '@plone/volto/icons/slider.svg';
 import imagesSVG from '@plone/volto/icons/images.svg';
 
@@ -146,6 +151,21 @@ export default function applyConfig(config) {
     group: 'common',
     view: WestSliderViewBlock,
     edit: WestSliderEditBlock,
+    restricted: false,
+    mostUsed: false,
+    security: {
+      addPermission: [],
+      view: [],
+    },
+  };
+
+  config.blocks.blocksConfig.effortsSliderBlock = {
+    id: 'effortsSliderBlock',
+    title: 'Community Efforts Slider Block',
+    icon: sliderSVG,
+    group: 'common',
+    view: EffortsViewBlock,
+    edit: EffortsEditBlock,
     restricted: false,
     mostUsed: false,
     security: {

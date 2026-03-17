@@ -20,6 +20,8 @@ import MainsliderEditBlock from './Blocks/mainSlider/Edit';
 import MainsliderViewBlock from './Blocks/mainSlider/View';
 import WestSliderEditBlock from './Blocks/westSlider/Edit';
 import WestSliderViewBlock from './Blocks/westSlider/View';
+import EffortsViewBlock from './Blocks/effortsBlock/View';
+import EffortsEditBlock from './Blocks/effortsBlock/Edit';
 
 export { MattermostViewBlock };
 export { MattermostEditBlock };
@@ -31,3 +33,5 @@ export { MainsliderEditBlock };
 export { MainsliderViewBlock };
 export { WestSliderEditBlock };
 export { WestSliderViewBlock };
+export { EffortsViewBlock };
+export { EffortsEditBlock };
