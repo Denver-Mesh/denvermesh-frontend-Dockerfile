@@ -57,7 +57,7 @@ const EventDetails = ({ content, display_as = 'aside' }) => {
   const intl = useIntl();
   return (
     <Segment
-      style={{backgroundColor: '#2b2d3c', color: 'white'}}
+      style={{backgroundColor: 'rgb(43 45 60)', color: 'white'}}
       as={display_as}
       {...(display_as === 'aside' ? { floated: 'right' } : {})}
     >

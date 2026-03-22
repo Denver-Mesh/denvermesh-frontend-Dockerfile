@@ -3,7 +3,7 @@
 // Background for site
 .ui.basic.segment {
   background: none #2b2d3c;
-  color: #000000;
+  color: #ffffff;
   box-shadow: none;
   border: none;
   border-radius: 0px;
@@ -17,6 +17,11 @@
   background-color: #2b2d3c;
   color: white;
 }  
+//styling for h1 component in slider on frontpage
+h1 {
+  color: #0ec58e;
+  text-shadow: 0 0 15px rgba(0, 255, 200, 0.77);
+}
 //Small header font color in above segement in Event Content type
 .ui.basic.segment .header, .dropdown-popup .ui.popup .menu > .header {
   color: white;
@@ -70,18 +75,14 @@ background: none #65ed93;
   border-color: #006b1e;
   color: #696969;
 }
-/*
-.navigation .ui.secondary.pointing.menu,  .tools .ui.secondary.pointing.menu {
-  margin: 40px 40px 0px 75px;
-}
-*/
+
 .ui.secondary.pointing.menu a.item:hover {
   color: #007786;
 }
 
 // top menu text color
 .ui.menu .item {
-  color: rgb(77, 77, 77);
+  color: rgb(0, 0, 0);
 }
 // text color for links in Footer
 .ui.inverted.list .item a:not(.ui) {
@@ -143,7 +144,8 @@ article, aside {
 }
 //test formatting adjustment
 .ui.segments .segment, .ui.segment {
-   font-size: unset; 
+  font-size: unset; 
+ 
 }
 //login button adjustment
 .ui.grey.button {
@@ -232,10 +234,6 @@ body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .dropdown-menu-wr
   display: block;
   margin-left: 38%;
 }
-//padding for map on FoCo mesh page
-.ui[class*="4:3"].embed {
-  padding-bottom: 100%;
-}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   body:not(.has-toolbar):not(.has-sidebar):not(.has-toolbar-collapsed):not(.has-sidebar-collapsed) .ui.container {
@@ -322,4 +320,34 @@ body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .dropdown-menu-wr
       display: none;
     }
   }
+}
+
+//Correction for ui.segment on Mobile screen
+.ui.padded.segment {
+    background-color: #2b2d3c !important;
+}
+
+//button for contact form modification
+.ui.primary.button, .ui.primary.buttons .button {
+    background-color: #63f092;
+    color: #333;
+    text-shadow: 1px 2px 9px black;
+    background-image: none;
+}
+
+.ui.primary.button {
+    box-shadow: 2px 2px 15px 5px #c7d5d8;
+}
+
+//contact form textbox label font color fix
+.ui.form .field .wrapper > label {
+  color: white;
+}
+
+// Iframe fix for mobile screens (Especially for Event Content Types
+iframe {
+    display: block; /* Removes default inline spacing */
+    width: 100vw; /* 100% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+    border: none; /* Removes default border */
 }
