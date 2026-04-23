@@ -344,10 +344,52 @@ body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .dropdown-menu-wr
   color: white;
 }
 
-// Iframe fix for mobile screens (Especially for Event Content Types
+// Iframe fix for mobile screens (Especially for Event Content Types)
+@media only screen and (max-width: 767px) {
 iframe {
     display: block; /* Removes default inline spacing */
-    width: 100vw; /* 100% of the viewport width */
-    height: 100vh; /* 100% of the viewport height */
+    width: 90vw; /* 100% of the viewport width */
+    height: 90vh; /* 100% of the viewport height */
     border: none; /* Removes default border */
+}
+}
+
+//Iframe fix for Tablets screens (esp. for Event content types)
+@media only screen and (min-width: 768px) and (max-width: 1329px) {
+iframe {
+    display: block; /* Removes default inline spacing */
+    width: 60vw; /* 100% of the viewport width */
+    height: 60vh; /* 100% of the viewport height */
+    border: none; /* Removes default border */
+}
+
+}  
+
+//fix for background color in site settings
+.ui.segment {
+  background: #2b2d3c;
+}
+
+//fix Preview image size and margins on mobile screen for listings
+@media only screen and (max-width: 767px) {
+  .listing-item img {
+    width: 35%;
+    margin-right: -5px;
+  }
+}
+.listing-item {
+    margin-bottom: 45px;
+}
+@media only screen and (max-width: 767px) {
+    .listing-item, .listing-item a {
+        flex-direction: row-reverse;
+    }
+}
+
+//fix for listings on desktops screens
+@media only screen and (min-width: 768px) {
+.listing-item img {
+    width: 10%;
+    margin-right: 20px;
+}
 }

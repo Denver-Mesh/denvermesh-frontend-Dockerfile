@@ -50,7 +50,7 @@ const View = (props) => {
           <div className="slide slide1"
           style={{ textAlign: 'center'}}
           >
-            <h1 style={{fontSize: '3rem', textTransform: 'uppercase', wordBreak: 'break-all', letterSpacing: '1.0rem'}}>ColoradoMesh</h1>
+            <h1 style={{fontSize: '3rem', textTransform: 'uppercase', wordBreak: 'break-all', letterSpacing: '.7rem'}}>Colorado Mesh</h1>
             <h3>
               Colorado's Mesh Network Community
             </h3>
